@@ -88,6 +88,7 @@ button {
   position: absolute;
   left: 44%;
   margin-left: -70px;
+  z-index: 1;
 }
 
 .header__navigation-left,
@@ -906,7 +907,9 @@ width: 100%;
 /* FOOTER */
 
 .footer-map {
+  position: relative;
   height: 1000px;
+  z-index: 0;
 
   
 }
